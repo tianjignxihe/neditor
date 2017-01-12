@@ -263,6 +263,7 @@ UE.I18N['en'] = {
             'lang_input_size':"Size:",
             'lang_input_width':"Width",
             'lang_input_height':"Height",
+            'lang_lock_width_height':"Locked Aspect Ratio",
             'lang_input_border':"Border:",
             'lang_input_vhspace':"Margins:",
             'lang_input_title':"Title:",

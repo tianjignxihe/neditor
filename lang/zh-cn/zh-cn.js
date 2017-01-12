@@ -263,6 +263,7 @@ UE.I18N['zh-cn'] = {
             'lang_input_size':"大 小：",
             'lang_input_width':"宽度",
             'lang_input_height':"高度",
+            'lang_lock_width_height':"锁定长宽比",
             'lang_input_border':"边 框：",
             'lang_input_vhspace':"边 距：",
             'lang_input_title':"描 述：",
