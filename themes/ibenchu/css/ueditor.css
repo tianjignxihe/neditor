@@ -375,39 +375,29 @@ div.edui-box {
 	z-index: 3000;
 }
 
-.edui-ibenchu .edui-menu .edui-popup-content {
-	padding: 3px;
-}
-
 .edui-ibenchu .edui-menu-body {
 	_width: 150px;
 	min-width: 170px;
-	background: url("../images/sparator_v.png") repeat-y 25px;
+	background: url("../images/sparator_v.png") repeat-y -1px;
 }
-
-.edui-ibenchu .edui-menuitem-body {
+.edui-contextmenu {
+	width: 200px !important;
 }
-
-.edui-ibenchu .edui-menuitem {
-	height: 20px;
-	cursor: default;
-	vertical-align: top;
+.edui-contextmenu .edui-menuitem .edui-icon {
+	width: 28px;
+	height: 30px;
+	line-height: 30px;
 }
-
-.edui-ibenchu .edui-menuitem .edui-icon {
-	width: 20px !important;
-	height: 20px !important;
-	background: url(../images/icons.png) 0 -4000px;
-	background: url(../images/icons.gif) 0 -4000px\9;
-
-
+.edui-ibenchu .edui-menuitem .edui-icon:before {
+	padding-left: 10px;
+	font-size: 18px;
 }
 
 .edui-ibenchu .edui-menuitem .edui-label {
 	font-size: 12px;
-	line-height: 20px;
-	height: 20px;
-	padding-left: 10px;
+	line-height: 30px;
+	height: 30px;
+	padding-left: 15px;
 }
 
 .edui-ibenchu .edui-state-checked .edui-menuitem-body {
@@ -667,7 +657,7 @@ div.edui-box {
 }
 
 .edui-ibenchu  .edui-for-selectall .edui-icon:before {
-	content: "\e934";
+	content: "\e925";
 }
 
 .edui-ibenchu  .edui-for-searchreplace .edui-icon {
@@ -1073,8 +1063,9 @@ div.edui-box {
 	-webkit-background-clip: padding-box;
 	-moz-background-clip: padding;
 	background-clip: padding-box;
-	padding: 5px;
 	background:#ffffff;
+	overflow: hidden;
+	margin-left: 3px;
 }
 
 .edui-ibenchu .edui-popup .edui-bordereraser {
@@ -1823,29 +1814,12 @@ div.edui-box {
 	height: 20px;
 	width: 20px;
 	float: right;
-	background: url("../images/icons-all.gif") no-repeat 10px -233px;
-}
-
-.edui-ibenchu .edui-menu-body .edui-menuitem {
-	padding: 1px;
-}
-
-.edui-ibenchu .edui-menuseparator {
-	margin: 2px 0;
-	height: 1px;
-	overflow: hidden;
-}
-
-.edui-ibenchu .edui-menuseparator-inner {
-	border-bottom: 1px solid #e2e3e3;
-	margin-left: 29px;
-	margin-right: 1px;
+	background: url("../images/icons-all.gif") no-repeat 3px -228px;
 }
 
 .edui-ibenchu .edui-menu-body .edui-state-hover {
 	padding: 0 !important;
-	background-color: #fff5d4;
-	border: 1px solid #dcac6c;
+	background-color: #f3f3f3;
 }
 /*弹出菜单*/
 .edui-ibenchu .edui-shortcutmenu {
@@ -1929,3 +1903,5 @@ div.edui-box {
 .edui-ibenchu  .edui-pastecontainer .edui-button  .edui-state-hover .edui-plaintxticon{
 	background-position: -72px -34px;
 }
+
+/*add new style*/
