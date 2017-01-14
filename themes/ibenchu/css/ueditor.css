@@ -1191,6 +1191,10 @@ div.edui-box {
 	height: 560px !important;
 	width: 640px !important;
 }
+.edui-dialog .edui-for-attachment .edui-dialog-body {
+	height: 560px !important;
+	width: 640px !important;
+}
 .edui-dialog div{
 	width:auto;
 }
@@ -1421,8 +1425,8 @@ div.edui-box {
 
 /*attachment-dialog*/
 .edui-ibenchu .edui-for-attachment .edui-dialog-content {
-	width: 650px;
-	height: 400px;
+	width: 635px;
+	height: 450px;
 	overflow: hidden;
 }
 
