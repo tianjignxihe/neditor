@@ -8,18 +8,21 @@ em{font-style: normal;}
 .border_style1{border: 1px solid #ccc;border-radius: 5px;box-shadow:2px 2px 5px #d3d6da;}
 /*module
 */
-.main{margin: 8px;overflow: hidden;}
+.main{margin: 20px 20px 0;overflow: hidden;}
 
-.hot{float:left;height:335px;}
+.hot{float:left;}
 .drawBoard{position: relative; cursor: crosshair;}
 .brushBorad{position: absolute;left:0;top:0;z-index: 998;}
 .picBoard{border: none;text-align: center;line-height: 300px;cursor: default;}
 .operateBar{margin-top:10px;font-size:12px;text-align: center;}
 .operateBar span{margin-left: 10px;}
 
-.drawToolbar{float:right;width:110px;height:300px;overflow: hidden;}
-.colorBar{margin-top:10px;font-size: 12px;text-align: center;}
-.colorBar a{display:block;width: 10px;height: 10px;border:1px solid #1006F1;border-radius: 3px; box-shadow:2px 2px 5px #d3d6da;opacity: 0.3}
+.drawToolbar{float:right;width:175px;height:372px;overflow: hidden;}
+.colorBar{margin-top:10px;margin-left: 10px;font-size: 12px;text-align: center;}
+#J_removeImg{display: block;margin-top: 35px;}
+#J_addImg{display: block;margin-top:25px;}
+.colorBar #J_colorList tr {height: 30px;}
+.colorBar a{display:block;width: 10px;height: 10px;border:1px solid #1006F1;border-radius: 5px; box-shadow:2px 2px 5px #d3d6da;opacity: 0.3}
 .sectionBar{margin-top:15px;font-size: 12px;text-align: center;}
 .sectionBar a{display:inline-block;width:10px;height:12px;color: #888;text-indent: -999px;opacity: 0.3}
 .size1{background: url('images/size.png') 1px center no-repeat ;}
@@ -60,10 +63,10 @@ em{font-style: normal;}
 .removeImgH .icon{display: inline-block;width:16px;height:16px;background-image: url('images/delimgH.png');cursor: pointer;}
 .removeImgH .text{color:#888;cursor:pointer;}
 .removeImg .icon{display: inline-block;width:16px;height:16px;background-image: url('images/delimg.png');cursor:default;}
-.removeImg .text{color:#ccc;cursor:default;}
+.removeImg .text{color:#fff;cursor:default;padding: 7px 12px; border-radius: 6px;background-color: #f25f5f;}
 
 .addImgH .icon{vertical-align:top;display: inline-block;width:16px;height:16px;background-image: url('images/addimg.png')}
-.addImgH .text{color:#888;cursor:pointer;}
+.addImgH .text{color:#888;cursor:pointer; padding: 7px 12px; border-radius: 6px;background-color: #f3f3f3;}
 /*icon
 */
 .brushIcon{display: inline-block;width:16px;height:16px;background-image: url('images/brush.png')}

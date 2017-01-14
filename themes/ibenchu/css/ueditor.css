@@ -1187,14 +1187,22 @@ div.edui-box {
 	height: 368px !important;
 	width: 405px !important;
 }
+
 .edui-dialog .edui-for-insertimage .edui-dialog-body {
 	height: 560px !important;
 	width: 640px !important;
 }
+
 .edui-dialog .edui-for-attachment .edui-dialog-body {
 	height: 560px !important;
 	width: 640px !important;
 }
+
+.edui-dialog .edui-for-scrawl .edui-dialog-body {
+	height: 545px !important;
+	width: 640px !important;
+}
+
 .edui-dialog div{
 	width:auto;
 }
@@ -1382,9 +1390,9 @@ div.edui-box {
 
 /*scrawl-dialog*/
 .edui-ibenchu .edui-for-scrawl .edui-dialog-content {
-	width: 515px;
+	width: 640px;
 	*width: 506px;
-	height: 360px;
+	height: 435px;
 }
 
 /*spechars-dialog*/
