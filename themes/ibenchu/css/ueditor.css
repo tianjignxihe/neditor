@@ -1203,6 +1203,11 @@ div.edui-box {
 	width: 640px !important;
 }
 
+.edui-dialog .edui-for-insertframe .edui-dialog-body {
+    height: 365px !important;
+    width: 400px !important;
+}
+
 .edui-dialog div{
 	width:auto;
 }
@@ -1419,8 +1424,8 @@ div.edui-box {
 
 /*image-insertframe*/
 .edui-ibenchu .edui-for-insertframe .edui-dialog-content {
-	width: 350px;
-	height: 200px;
+    width: 400px;
+    height: 255px;
 	overflow: hidden;
 }
 
