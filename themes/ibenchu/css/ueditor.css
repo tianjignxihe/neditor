@@ -1068,6 +1068,10 @@ div.edui-box {
 	margin-left: 3px;
 }
 
+.edui-ibenchu .edui-popup-content:nth-child(2) {
+	width: 120px !important;
+}
+
 .edui-ibenchu .edui-popup .edui-bordereraser {
 	background-color: white;
 	height: 3px;
@@ -1179,7 +1183,10 @@ div.edui-box {
 	position: absolute;
 
 }
-
+.edui-dialog .edui-for-link .edui-dialog-body {
+	height: 368px !important;
+	width: 405px !important;
+}
 .edui-dialog div{
 	width:auto;
 }
@@ -1274,7 +1281,8 @@ div.edui-box {
 
 .edui-ibenchu .edui-dialog-buttons {
 	position: absolute;
-	right: 0;
+	right: 12px;
+	bottom: 13px;
 }
 
 .edui-ibenchu .edui-dialog-buttons .edui-button {
@@ -1342,9 +1350,11 @@ div.edui-box {
 }
 
 /*link-dialog*/
+
 .edui-ibenchu .edui-for-link .edui-dialog-content {
-	width: 420px;
-	height: 200px;
+	width: 406px;
+	height: 258px;
+	border-bottom: 2px solid #ccc;
 	overflow: hidden;
 }
 /*background-dialog*/
