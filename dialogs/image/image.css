@@ -2,9 +2,9 @@
 /* dialog样式 */
 .wrapper {
     zoom: 1;
-    width: 596px;
+    width: 580px;
     *width: 592px;
-    height: 360px;
+    height: 410px;
     margin: 0 auto;
     padding: 20px;
     position: relative;
@@ -738,8 +738,10 @@
 #search .searchBar {
     width: 100%;
     height: 30px;
-    margin: 10px 0 5px 0;
-    padding: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 #search input.text{
@@ -786,6 +788,7 @@
     margin-left: 5px;
     float: left;
     dislay: block;
+    border-radius: 8%;
 }
 
 #search #searchBtn,
@@ -793,7 +796,7 @@
     display: inline-block;
     margin-bottom: 0;
     margin-right: 5px;
-    padding: 4px 10px;
+    padding: 6px 10px;
     font-weight: 400;
     text-align: center;
     vertical-align: middle;
@@ -819,7 +822,7 @@
 #search #searchReset {
     color: #333;
     border-color: #ccc;
-    background-color: #fff;
+    background-color: #f3f3f3;
 }
 #search #searchBtn:hover {
     background-color: #3276b1;

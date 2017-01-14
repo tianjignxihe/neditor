@@ -1187,6 +1187,10 @@ div.edui-box {
 	height: 368px !important;
 	width: 405px !important;
 }
+.edui-dialog .edui-for-insertimage .edui-dialog-body {
+	height: 560px !important;
+	width: 640px !important;
+}
 .edui-dialog div{
 	width:auto;
 }
@@ -1277,6 +1281,7 @@ div.edui-box {
 
 .edui-ibenchu .edui-dialog-foot {
 	height: 40px;
+	border-top: 2px solid #ccc;
 }
 
 .edui-ibenchu .edui-dialog-buttons {
@@ -1388,8 +1393,8 @@ div.edui-box {
 
 /*image-dialog*/
 .edui-ibenchu .edui-for-insertimage .edui-dialog-content {
-	width: 650px;
-	height: 400px;
+	width: 641px;
+	height: 450px;
 	overflow: hidden;
 }
 /*webapp-dialog*/
