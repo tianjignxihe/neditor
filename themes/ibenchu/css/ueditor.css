@@ -11,7 +11,9 @@
   font-weight: normal;
   font-style: normal;
 }
-
+.edui-ibenchu .edui-editor-toolbarboxouter {
+    padding-left: 10px;
+}
 .edui-ibenchu .edui-box {
 	border: none;
 	padding: 0;
@@ -411,28 +413,33 @@ div.edui-box {
 
 /*不可选中菜单按钮 */
 .edui-ibenchu .edui-toolbar .edui-combox-body .edui-button-body {
-	width: 60px;
-	font-size: 12px;
-	height: 20px;
-	line-height: 20px;
-	padding-left: 5px;
-	white-space: nowrap;
-	margin: 0 3px 0 0;
+    width: 80px;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 5px;
+    white-space: nowrap;
+    margin: 0 3px 0 0;
 }
 
 .edui-ibenchu .edui-toolbar .edui-combox-body .edui-arrow {
-	background: url(../images/icons.png) -741px 0;
-	_background: url(../images/icons.gif) -741px 0;
-	height: 20px;
-	width: 9px;
+	/*background: url(../images/icons.png) -741px 0;*/
+	/*_background: url(../images/icons.gif) -741px 0;*/
+    height: 28px;
+    width: 30px;
+    position: relative;
+}
+
+.edui-ibenchu .edui-toolbar .edui-combox-body .edui-arrow:after {
+
 }
 
 .edui-ibenchu .edui-toolbar .edui-combox .edui-combox-body {
 	border: 1px solid #CCC;
 	background-color: white;
-	border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 .edui-ibenchu .edui-toolbar .edui-combox-body .edui-splitborder {
@@ -540,7 +547,7 @@ div.edui-box {
 }
 
 .edui-ibenchu  .edui-for-fontborder .edui-icon:before {
-	content: "\e90a";
+	content: "\e966";
 }
 .edui-ibenchu  .edui-for-underline .edui-icon:before {
 	content: "\e93c";
@@ -657,7 +664,7 @@ div.edui-box {
 }
 
 .edui-ibenchu  .edui-for-selectall .edui-icon:before {
-	content: "\e925";
+	content: "\e934";
 }
 
 .edui-ibenchu  .edui-for-searchreplace .edui-icon {
@@ -963,25 +970,35 @@ div.edui-box {
 	padding: 10px;
 }
 
-.edui-ibenchu .edui-toolbar .edui-splitborder {
-	width: 1px;
-	height: 20px;
+.edui-ibenchu .edui-for-customstyle .edui-splitborder ,
+.edui-ibenchu .edui-for-paragraph .edui-splitborder ,
+.edui-ibenchu .edui-for-fontfamily .edui-splitborder ,
+.edui-ibenchu .edui-for-fontsize .edui-splitborder ,
+.edui-ibenchu .edui-for-insertcode .edui-splitborder {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #666;
+    right: 11px;
+    top: 12px;
 }
 
-.edui-ibenchu .edui-toolbar .edui-state-hover .edui-splitborder {
-	width: 1px;
-	border-left: 0px solid #dcac6c;
-}
+/*.edui-ibenchu .edui-toolbar .edui-state-hover .edui-splitborder {*/
+	/*width: 1px;*/
+	/*border-left: 0px solid #dcac6c;*/
+/*}*/
 
-.edui-ibenchu .edui-toolbar .edui-state-active .edui-splitborder {
-	width: 0;
-	border-left: 1px solid gray;
-}
+/*.edui-ibenchu .edui-toolbar .edui-state-active .edui-splitborder {*/
+	/*width: 0;*/
+	/*border-left: 1px solid gray;*/
+/*}*/
 
-.edui-ibenchu .edui-toolbar .edui-state-opened .edui-splitborder {
-	width: 1px;
-	border: 0;
-}
+/*.edui-ibenchu .edui-toolbar .edui-state-opened .edui-splitborder {*/
+	/*width: 1px;*/
+	/*border: 0;*/
+/*}*/
 
 .edui-ibenchu .edui-toolbar .edui-splitbutton .edui-state-hover .edui-splitbutton-body,
 .edui-ibenchu .edui-toolbar .edui-menubutton .edui-state-hover .edui-menubutton-body {
