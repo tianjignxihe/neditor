@@ -1413,7 +1413,6 @@ div.edui-box {
 .edui-ibenchu .edui-for-link .edui-dialog-content {
 	width: 406px;
 	height: 258px;
-	border-bottom: 2px solid #ccc;
 	overflow: hidden;
 }
 /*background-dialog*/
@@ -1448,7 +1447,7 @@ div.edui-box {
 /*image-dialog*/
 .edui-ibenchu .edui-for-insertimage .edui-dialog-content {
 	width: 641px;
-	height: 450px;
+	height: 455px;
 	overflow: hidden;
 }
 /*webapp-dialog*/
