@@ -23,7 +23,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.edui-icon {
+    font-size: 18px;
+}
 .icon-clock:before {
   content: "\e9c3";
 }
