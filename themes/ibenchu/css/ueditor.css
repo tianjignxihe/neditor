@@ -173,6 +173,7 @@ div.edui-box {
 	border-radius: 10px 10px 0 0;
 	*zoom: 1;
 	overflow: hidden;
+    padding-left: 10px;
 }
 
 
@@ -695,11 +696,8 @@ div.edui-box {
 .edui-ibenchu  .edui-for-time .edui-icon:before {
 	content: "\e939";
 }
-.edui-ibenchu  .edui-for-date {
-    width: 0;
-}
 .edui-ibenchu  .edui-for-date .edui-icon:before {
-	/*background-position: -140px -20px;*/
+    content: "\e9b4";
 }
 
 .edui-ibenchu  .edui-for-cut .edui-icon:before {
@@ -1976,8 +1974,8 @@ div.edui-box {
 }
 
 /*add new style*/
-.edui-ibenchu  .edui-for-source,
-.edui-ibenchu  .edui-for-paragraph ,
-.edui-ibenchu  .edui-for-attachment {
-    margin-left: 10px;
-}
+/*.edui-ibenchu  .edui-for-source,*/
+/*.edui-ibenchu  .edui-for-paragraph ,*/
+/*.edui-ibenchu  .edui-for-attachment {*/
+    /*margin-left: 10px;*/
+/*}*/
